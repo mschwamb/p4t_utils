@@ -1,3 +1,5 @@
+__author__ = 'mschwamb'
+
 import csv
 import json
 from numpy import genfromtxt
