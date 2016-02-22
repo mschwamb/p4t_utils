@@ -20,7 +20,7 @@ with open('./p4t_subjectsdump.csv') as csvfile:
                 subject_set_id= int(row['subject_set_id'])
 
 		# only do this for the subject sets you're intersted in - basically skipping beta test data and anything you don't want to parse 
-                if not ((subject_set_id == 73) or (subject_set_id == 29049) or (subject_set_id == 2519) or (subject_set_id == 3451) or (subject_set_id == 2384) or (subject_set_id ==3339)):
+                if not ((subject_set_id == 373) or (subject_set_id == 249) or (subject_set_id == 32519) or (subject_set_id == 91451) or (subject_set_id == 12814) or (subject_set_id ==33)):
                         continue 
 
 		
